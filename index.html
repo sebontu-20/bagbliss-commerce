@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bag bliss</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo-part"> 
+        <img id="logo-pic" src="images/DALL·E 2025-01-03 13.53.28 - A minimalist logo design for a brand named 'BagBliss'. The logo should feature a sleek, modern silhouette of a bag or tote, incorporating elegant curv.webp" alt="logopicture">
+        <h1>Bag Bliss</h1>
+      </div>
+     
+      <div class="menu-toggle">☰</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#cart"> cart</a></li>
+        </div>
+      </ul>
+      <button id="cart-icon">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+      
+  </header>
+
+  <!-- main Section -->
+  <section id="home" class="main-sec">
+    <div class="container">
+      <h2>Your Perfect Bag Awaits</h2>
+      <p>Discover stylish, durable, and elegant bags for every occasion.</p>
+      <a href="#shop" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- products Section -->
+  <section id="shop" class="shop">
+    <div class="container">
+      <h2>Our Collection</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/bag2.jpg" alt="Handbag">
+          <h3>Elegant Handbag</h3>
+          <p>$49.99</p>
+        </div>
+        <div class="product-card">
+          <img src="images/pexels-geyonk-1152077.jpg" alt="Backpack">
+          <h3>Classic Backpack</h3>
+          <p>$59.99</p>
+        </div>
+        <div class="product-card">
+          <img src="images/bag3.jpg" alt="Tote Bag">
+          <h3>Stylish Tote1</h3>
+          <p>$39.99</p>
+        </div>
+        <div class="product-card">
+            <img src="images/bag4.jpg" alt="Tote Bag">
+            <h3>Stylish Tote2</h3>
+            <p>$39.99</p>
+          </div>
+          <div class="product-card">
+            <img src="images/bag5.jpg" alt="Tote Bag">
+            <h3>Stylish Tote3</h3>
+            <p>$39.99</p>
+          </div>
+          <div class="product-card">
+            <img src="images/bag4.jpg" alt="Tote Bag">
+            <h3>Stylish Tote4</h3>
+            <p>$39.99</p>
+          </div>
+          <div class="product-card">
+            <img src="images/bag7.jpg" alt="Tote Bag">
+            <h3>Stylish Tote5</h3>
+            <p>$39.99</p>
+          </div>
+          <div class="product-card">
+            <img src="images/bag2.jpg" alt="Tote Bag">
+            <h3>Stylish Tote6</h3>
+            <p>$39.99</p>
+          </div>
+          <div class="product-card">
+            <img src="images/bag5.jpg" alt="Tote Bag">
+            <h3>Stylish Tote7</h3>
+            <p>$39.99</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At BagBliss, we are passionate about providing high-quality bags that combine style and functionality. With years of experience in the industry, we take pride in our attention to detail and commitment to customer satisfaction.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="#">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="cart">
+    <div class="container">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total: $0.00</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 BagBliss. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
